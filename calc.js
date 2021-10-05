@@ -104,7 +104,7 @@ function solve2(i) {
         n = n / Number(item.slice(1));
         break;
       case "^":
-        alert("^ "+item.slice(1));
+        //alert("^ "+item.slice(1));
         n = Math.pow( n , Number(item.slice(1)) );
         break;
       case "√":
